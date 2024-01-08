@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.color_block {
+  width: 500px;
+  height: 500px;
+  border-radius: 16px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color_block img {
+  width: 150px;
+  height: 150px;
+}
+
+.images_block {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: max-content;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.images_block img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
